@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="m8QVZO" name="New Impulsive" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.NewImpulsive" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" buildStandalone="0" enableIAA="0" pluginName="New Impulsive"
+              pluginDesc="New Impulsive" pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="M8qv" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="NewImpulsiveAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.NewImpulsive"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.0.1">
+  <MAINGROUP id="c6TzTw" name="New Impulsive">
+    <GROUP id="{5195A38E-FD27-44A2-DD53-1373466F4B5C}" name="Source">
+      <FILE id="LNCQ0I" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="QC7oTG" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="LaamqT" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="RGQwUZ" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="New Impulsive"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="New Impulsive"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../Documents/Impulsive/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="New Impulsive"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="New Impulsive"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Documents/Impulsive/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../Documents/Impulsive/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
